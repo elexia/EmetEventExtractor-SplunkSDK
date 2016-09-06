@@ -1,0 +1,18 @@
+{
+  "Settings": [
+	{
+	  "username" : "fake-user",
+	  "password" : "fake-pass",
+	  "webreports_server" : "https://splunk-url.com",
+	  "returns" : ["computer name", "os", "ip addresses"],
+	  "log_path" : "C:\\Example-Directory\\Logs.log",
+	  "output_path" : "C:\\Example-Directory\\Output.txt"
+	},
+	{
+	  "filters": {
+		  "Filter1" : ["OS", "contains", "Win" ],
+		  "Filter2" : ["Computer Name", "is", "My Computer" ]
+		}
+	}
+   ]
+}
