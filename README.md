@@ -1,9 +1,14 @@
 # EmetEventExtractor-SplunkSDK
-An alternate version of EmetEventExtractor which makes use of the Splunk Python SDK instead of a file cache.
+An alternate version of EmetEventExtractor which makes use of the Splunk SDK for Python instead of a file cache.
 
-This script retrieves EMET triggered mitigations from the BigFix Webreports Database using BAM functions and from Splunk using the Splunk Python SDK. The Webreports events are then deduplicated and checked against the Splunk retreived events. The script submits new, unique files directly to the Splunk index using the SDK.
+This script retrieves EMET triggered mitigations from the BigFix Webreports Database using BAM functions and from Splunk using the Splunk SDK. The Webreports events are then deduplicated and checked against the Splunk retreived events. The script submits new, unique files directly to the Splunk index using the SDK.
 
 ##Cool Features
+
+####Splunk SDK for Python
+
+This script uses am opensource Splunk Software Development Kit which allows direct retreival and submission of splunk events to an index.
+Source : http://dev.splunk.com/python
 
 ####Configuration Files
 
