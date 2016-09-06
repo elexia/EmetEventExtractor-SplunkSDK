@@ -5,7 +5,7 @@ This script retrieves EMET triggered mitigations from the BigFix Webreports Data
 
 ##Cool Features
 
-Configuration Files
+####Configuration Files
 
 This script depends on a config file formatted in JSON. Customizable settings include: Username, Password, Server, Filters, Returns, Log Filepath, and Output Filepath.
 
